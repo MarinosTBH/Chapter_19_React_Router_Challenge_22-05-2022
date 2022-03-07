@@ -1,0 +1,24 @@
+.Desc {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    background-color: #ffc107;
+    margin: 30px auto;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 60%;
+    border-style: solid;
+    border-color: #0d6efd;
+    padding-top: 2%;
+    line-height: 5px;
+}
+
+.Trailer {
+
+    display: flex;
+    align-items: center;
+    margin: 10% auto;
+    width: 50%;
+}
