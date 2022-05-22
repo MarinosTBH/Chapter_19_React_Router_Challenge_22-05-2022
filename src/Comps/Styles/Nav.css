@@ -1,0 +1,44 @@
+.Logo {
+    background-color: #1c87c9;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  @keyframes glowing {
+    0% {
+      background-color: #0d6efd;
+      box-shadow: 0 0 5px #1a75ff;
+    }
+    50% {
+      background-color: #0d69f1;
+      box-shadow: 0 0 20px #156df1;
+    }
+    100% {
+      background-color: #0d63e4;
+      box-shadow: 0 0 5px #1267e6;
+    }
+  }
+  .Logo {
+    animation: glowing 1300ms infinite;
+  }
+  .LogoHidden{
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+  }

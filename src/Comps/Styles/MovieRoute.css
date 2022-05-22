@@ -1,0 +1,11 @@
+.Carousel-container{
+    margin:  100px auto; 
+    width: 40%;
+}
+.Trailer {
+
+    display: flex;
+    align-items: center;
+
+
+}
