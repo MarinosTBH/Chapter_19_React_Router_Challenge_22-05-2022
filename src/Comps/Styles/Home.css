@@ -1,0 +1,22 @@
+
+.App{
+    background-color:rgba(235, 238, 236, 0.781);
+}
+.App-content{
+    padding-top: 120px;
+}
+.Home{
+
+    margin: 100px auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.png-home{
+    height: 100%;
+    width: 100%;
+}
